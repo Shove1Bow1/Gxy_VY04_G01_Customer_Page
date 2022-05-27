@@ -1,0 +1,16 @@
+.page-body{
+    width: 100%;
+    padding: 1rem 1rem;
+}
+.page-row{
+    font-size: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border: 3px;
+    width:auto;
+    direction: ltr;
+    display:flex;
+}
+.page-point{
+    font-size: 12px;
+}

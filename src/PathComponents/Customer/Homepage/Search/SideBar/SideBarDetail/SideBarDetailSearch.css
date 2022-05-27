@@ -1,0 +1,265 @@
+/* ----------------SideBarDetailTicket----------------- */
+.sideBarDetai-s-main-ticket{
+   margin-top: 32%;
+   
+}
+.sideBarDetai-s-ticket-one{
+    margin-bottom: 50%;
+}
+.sideBarDetai-s-1-ticket{
+    margin-left: 40%;
+    padding-bottom: 20.5%;
+    transform: translate(-30%, -265%);
+    z-index: 100;
+}
+.khuhoi{
+    transform: translate(0%, 70%);
+
+}
+.sideBarDetai-s-2-ticket{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -260%);
+    z-index: 100;
+}
+.sideBarDetai-s-3-ticket{
+    margin-left: 36%;
+    padding-bottom: 20%;
+    transform: translate(57.5%, -426%);
+  
+}
+.mar-sidebarsearch{
+    margin-right: 50%;
+}
+/* -------------- */
+
+/* -------------- */
+.container-side-search-2-ticket{
+    height: 40px;
+    width: 450px;
+    padding-top: 20%;
+    border-radius: 10px;
+    background-color: gainsboro ;
+}
+
+.sideBarDetai-s-2-ticket-two{
+    margin-left: 40%;
+    margin-bottom: 60%;
+    padding-bottom: 10%;
+    transform: translate(-30%, -230%);
+    z-index: 100;
+}
+/* ----------------SideBarDetailTicket----------------- */
+
+/* ----------------SideBarDetailHotel----------------- */
+.sideBarDetai-s-main-hotel{
+    margin-bottom: -5%;
+    
+}
+.sideBarDetai-s-1-hotel{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -137%);
+    z-index: 100;
+}
+.sideBarDetai-s-2-hotel{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -210%);
+    z-index: 100;
+}
+.sideBarDetai-s-3-hotel{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -288%);
+    z-index: 100;
+}
+.sideBarDetai-s-4-hotel{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -366%);
+    z-index: 100;
+}
+.sideBarDetai-s-5-hotel{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -468%);
+    z-index: 100;
+}
+.sideBarDetai-s-6-hotel{
+    margin-left: 39.5%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -548%);
+    z-index: 100;
+}
+/* ----------------SideBarDetailHotel----------------- */
+/* ----------------SideBarDetailCombo----------------- */
+.sideBarDetail-s-main-combo{
+    margin-top: 10%;
+    transform: translate(0%, -22%); /*tăng phần trăm (âm) sẽ dịch chuyển khối lên trên  */
+
+}
+.sideBarDetail-s-1-combo{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -90%);
+    z-index: 100;
+}
+.sideBarDetail-s-2-combo{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    margin-bottom: 70%;
+    transform: translate(-30%, -105%);
+    z-index: 100;
+}
+.sideBarDetail-s-3-combo{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    margin-bottom: 200%;
+    transform: translate(-30%, -380%);
+    z-index: 100;
+}
+
+/* ----------------SideBarDetailCombo----------------- */
+/* ----------------SideBarDetailCar----------------- */
+.sideBarDetail-s-1-Car{
+    margin-left: 40%;
+    padding-bottom: 20%;
+    transform: translate(-30%, -61%);
+    z-index: 100;
+}
+/* ----------------SideBarDetailCar----------------- */
+.sideBarDetail-s-1-experience
+{
+  margin-left: 40%;
+  margin-bottom: 720%;
+  padding-bottom: 10%;
+  transform: translate(-30%, -90%);
+  z-index: 100;
+}
+
+/* ----------------------------------------------------- */
+.headerSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  .headerIcon {
+    color: lightgray;
+  }
+  
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+    margin-left: 190px;
+    transform: translate(-2%, 15%);
+  }
+  .headerSearchItem2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+    margin-left: 190px;
+    transform: translate(-75%, 15%);
+  }
+  .headerSearchItem3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+    margin-left: 190px;
+    transform: translate(-2%, 15%);
+  }
+  .headerSearchItemhotel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 540px;
+    margin-left: 190px;
+    transform: translate(-38%, 15%);
+  }
+  
+  .headerSearchInput {
+    border: none;
+    outline: none;
+  }
+  
+  .headerSearchText {
+    color: black;
+    cursor: pointer;
+    border: 3px solid;
+    
+  }
+  
+  .date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
+
+  .optionshotel {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color:white;
+    color:gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    transform: translate(7%, -145%);
+  }
+  
+  .options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    transform: translate(7%, -5%);
+  }
+  
+  .optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+  }
+  
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  }
+
+  
+  

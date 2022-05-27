@@ -1,0 +1,22 @@
+.carousel-inner{
+    padding: 20px;
+    margin-left: 10%;
+    width: 100%;
+    background-color: #1E90FF;
+    border-radius: 19px;
+    position: relative;
+}
+.carousel-control-prev,.carousel-control-next{
+    position: absolute;
+    margin-left: 10%;
+}
+#carouselExampleControls{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
