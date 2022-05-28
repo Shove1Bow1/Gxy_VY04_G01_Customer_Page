@@ -1,0 +1,317 @@
+/* body homepage */
+.all-homepage{
+    height: 100%;
+    width: 100%;
+}
+/* Thanh Điều hướng */
+.TopNav{
+    top:0;
+    width: 100%;
+    height: 100px;
+}
+.top-nav{
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(67, 219, 219);
+}
+.traveloka-icon{
+    margin-left: 14%;
+    height: 40px;
+}
+.container-traveloka-icon{
+    width: 10%;
+}
+.line{
+    text-align: center;
+    width: 40%;
+    margin-left: 27%;
+    height: 60px;
+}
+.col-sm-5{
+   margin-top: 20px;
+   font-size: 18px;
+   font-weight: bold; 
+   height: 40px;
+}
+/* Các Loại hình dịch vụ */
+.BoxBorder{
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px;
+    height: 400px;
+    width: 1135px;
+    display: flex;
+    border-radius: 3px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+.miniBox{
+    position:relative;
+    border: none;
+    height: 130px;
+    width: 150px;
+    margin-top: 2px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-bottom: 5px solid white;
+}
+.nav-Box{
+    height: 132px;
+    position: absolute;
+    width: 1135px;
+    justify-content: center;
+    display: flex;
+}
+.miniBox-Active{
+    background-color: white;
+    height: 127px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid  #0194f3;
+}
+.box-info-service{
+    position: relative;
+    height: 400px;
+    width: 1135px;
+    margin-top:150px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.button-get-started{
+    background-color: rgb(204, 121, 91);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.box-info-left{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.box-info-right{
+    position: absolute;
+    margin-left: 55%;
+    height: 100%;
+    width: 40%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.fa-cog{
+    color: green;
+}
+.text-range{
+    margin-left: 5%;
+    padding: 0;
+}
+/* footer */
+.parent-footer-homepage{
+    width: 80%;
+    height: 300px;
+    bottom: 0;
+    border-radius: 10% 10% 0 0;
+}
+.child-footer-homepage{
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+
+    border-radius: 10% 10% 0 0; 
+    background: rgb(252, 249, 248);
+    display: flex;
+    justify-content: center;
+}
+.block-footer-homepage{
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    margin-top: 3%;
+}
+h6{
+    font-size: 17px;
+}
+.fa-envelop{
+    color: rgb(90, 90, 182);
+}
+.padding-top-div{
+    margin-top: 30px;
+}
+/* Third Body */
+.old-parent-thirdbody-homepage{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:450px;
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.parent-thirdbody-homepage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.child-left-sidebar{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+.child-right-sidebar{
+    position: relative;
+    width: 74%;
+    padding-left: 25%;
+    height: 100%;
+}
+.title-thirdbody{
+    height: 30%;
+    position: relative;
+    width: 30%;
+    margin-top: 10%;
+    margin-right: 10%;
+    padding-top: 1%;
+    font-size: 30px;
+}
+.img-leftside{
+    position: absolute;
+    height: 100%;
+    width: 46%;
+    margin-left: 0;
+}
+.first-image{
+    height: 100%;
+    position: absolute;
+    color: white;
+    object-fit: contain;
+}
+.first-image-content{
+    position: absolute;
+    width: 50%;
+    font-size: 22px;
+    color: white;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+.img-top-right{
+    position: absolute;
+    width: 60%;
+    margin-left: 30.5%;
+    height: 50%;
+}
+.second-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.second-image-content{
+    width: 100%;
+    font-size: 22px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 2%;
+    position: absolute;
+}
+.img-bottom-right{
+    width: 60%;
+    position: absolute;
+    margin-left: 30.5%;
+    height: 48.5%;
+    margin-top: 22.9%;
+
+}
+.child-img-bottom-left{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.child-img-bottom-right{
+    margin-left: 51.5%;
+    position: absolute;
+    height: 100%;
+    width: 48.5%;
+}
+.third-image,.fourth-image{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+.fourth-image-content,.third-image-content{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+/*second body*/
+.old-parent-secondbody-homepage{
+    height: 620px;
+    width: 80%;
+    margin-left:10% ;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.parent-secondbody-homepage{
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+.left-sidebar-img{
+    height:400px;
+    width: 600px;
+    position:absolute;
+    margin-top: 100px;
+}
+.slide-first-img{
+    height: 100%;
+    width: 100%;
+    border-radius:0 30% 0 30%;
+    position: absolute;
+}
+.right-sidebar-info{
+    margin-top: 3%;
+    width: 60%;
+    margin-left: 30%;
+    padding-left: 20%;
+    height: 80%;
+    position: absolute;
+}
+.second-body-title{
+    position: absolute;
+}
+.set-img-size-secondbody{
+    margin-top: 3%;
+    width: 18%;
+    height: 60%;
+    position: absolute;
+}
+.set-height-width-content{
+    width: 90%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.first-info-second-body{
+    height: 100px;
+    position: relative;
+}
+.second-body-info{
+    margin-top: 100px;
+    height: 100px;
+    position: relative;
+}
