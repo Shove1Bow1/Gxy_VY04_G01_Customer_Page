@@ -8,8 +8,7 @@ export default function MyBounsPoints(props) {
   const [getPoint,setPoint]=useState("0");
   const [getOpen, setOpen] = useState(false); 
   useEffect(()=>{
-    console.log("Point "+props.value);
-    axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getPointAvailable",{
+    axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getAvailablePoint",{
       TOKEN:props.value,
     }).then(res=>{
       if(res.data.STATUS){
@@ -57,6 +56,7 @@ export default function MyBounsPoints(props) {
         </div>
       </div>
       <DialogDetail
+        value={props.value}
         customerPoint={getPoint}
         isOpen={getOpen}
         onClose={setOpen}>
