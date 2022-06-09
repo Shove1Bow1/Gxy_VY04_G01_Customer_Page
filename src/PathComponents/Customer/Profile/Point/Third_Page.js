@@ -1,10 +1,9 @@
 import axios from "axios";
-import React, { useEffect } from "react";
+import React, { useEffect,useState } from "react";
 
 
 
 const ThirdPage = (props) =>{
-    const [getCookies]=useCookies();
     const [getPackage,setPackage]=useState([]);
     useEffect(()=>{
         axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getHistoryPoint",{

@@ -27,10 +27,10 @@ export default function Navbar(props) {
                         <span style={{ fontWeight: "500" }}>Thẻ của tôi</span></Link>
                     </li>
                     <hr></hr>
-                    <li><Link to="/" className="list-group-item list-group-item-action">
+                    <a href={`https://voucher.votuan.xyz/user/home/?token=${props.value}&appId=vy04`} className="list-group-item list-group-item-action">
                     <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/b/b0f87008a7a01d72ffb5eacf06870cba.svg" style={{}}></img>
-                        <span style={{ fontWeight: "500" }}>Đặt chổ của tôi</span></Link>
-                    </li>
+                        <span style={{ fontWeight: "500" }}>Voucher</span></a>
+                    
                     <li><Link to={`/${props.value}/Profile/HistoryTransaction`} className="list-group-item list-group-item-action">
                     <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/0/0965a06a63e873adb97d5ed7d7b92dbe.svg" style={{}}></img>
                         <span style={{ fontWeight: "500" }}>Danh sách giao dịch</span></Link>
