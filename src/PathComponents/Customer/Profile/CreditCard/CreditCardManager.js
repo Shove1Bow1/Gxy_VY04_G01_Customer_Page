@@ -16,7 +16,7 @@ export default function CreditCardManager(props) {
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
-    fetch("http://localhost:8020/Customer/create-payment-intent", {
+    fetch("https://gxyvy04g01backend-production.up.railway.app/Customer/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ items: [{ id: "xl-tshirt" }] }),

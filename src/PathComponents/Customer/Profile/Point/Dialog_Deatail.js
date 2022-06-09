@@ -28,7 +28,7 @@ export default function DialogDetail(props) {
             <div>
               {getPage === 1 ? <FirstPage customerPoint={props.customerPoint}/> : null}
               {getPage === 2 ? <SecondPage value={props.value}/> : null}
-              {getPage === 3 ? <ThirdPage /> : null}
+              {getPage === 3 ? <ThirdPage value={props.value}/> : null}
             </div>
           </div>
         </div>:null
