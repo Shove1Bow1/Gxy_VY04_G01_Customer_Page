@@ -9,7 +9,7 @@ export default function MyBounsPoints(props) {
   const [getOpen, setOpen] = useState(false); 
   useEffect(()=>{
     console.log("Point "+props.value);
-    axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/postPointAvailable",{
+    axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getPointAvailable",{
       TOKEN:props.value,
     }).then(res=>{
       if(res.data.STATUS){

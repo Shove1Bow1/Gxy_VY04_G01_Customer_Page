@@ -16,6 +16,7 @@ export default function ProfileController(props){
                     <Route path="/" element={<ProfileSetting value={props.value}/>} />
                     <Route path="/Point" element={<Point value={props.value}/>} />
                     <Route path="/CreditCard" element={<CreditCard value={props.value}/>} />
+                    <Route path="/HistoryTransaction" element={<HistoryTransaction value={props.value}/>}/>
                 </Routes>
             </div>
         </div>
