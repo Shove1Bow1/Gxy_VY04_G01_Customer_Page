@@ -39,7 +39,7 @@ export default function HistoryTransaction(props){
             }
             setData(data);
         }
-    });
+    },[]);
     const columns = [
         {
             name: 'Tên dịch vụ',
