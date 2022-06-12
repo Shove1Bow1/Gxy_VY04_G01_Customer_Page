@@ -20,7 +20,8 @@ export default function HistoryTransaction(props){
             const data=[];
             for (var i = 0; i < getPackage.length; i++) {
                 var TRANSACTION_TYPE = "Trừ";
-                if (getPackage[i].TRANSACTION_TYPE) {
+                if (getPackage[i].TRANSACTION_TYPE) 
+                {
                     TRANSACTION_TYPE = "Cộng";
                 }
                 const unmountToData = {
@@ -39,7 +40,7 @@ export default function HistoryTransaction(props){
             }
             setData(data);
         }
-    },[]);
+    });
     const columns = [
         {
             name: 'Tên dịch vụ',
