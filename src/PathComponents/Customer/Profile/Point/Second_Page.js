@@ -69,7 +69,7 @@ const SecondPage = (props) => {
                                                     <div>Tình trạng điểm thưởng: Điểm thưởng vẫn đang được xử lý</div>
                                                 </div>
                                                 <div className="col-sm-6" style={{ fontWeight: "bolder" }}>
-                                                    <div>Ngày sẽ nhận điểm thưởng: {" "+handleDate(item.END_DATE)}</div>
+                                                    <div>Ngày sẽ nhận điểm thưởng: {" "+HandleDate(item.END_DATE)}</div>
                                                 </div>
                                             </div>
                                             <div className="page-point" style={{ fontWeight: "bolder" }}>

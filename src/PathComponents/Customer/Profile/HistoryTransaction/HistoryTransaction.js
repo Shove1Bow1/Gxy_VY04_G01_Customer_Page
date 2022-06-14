@@ -24,10 +24,11 @@ export default function HistoryTransaction(props){
                 {
                     TRANSACTION_TYPE = "Cộng";
                 }
+                const DATE_ACTIVE=HandleDate(getPackage[i].DATE_TRANSACTION)
                 const unmountToData = {
                     id: i+1,
                     SERVICE_NAME: getPackage[i].APP_ID,
-                    TRANSACTION_DATE: HandleDate(getPackage[i].DATE_TRANSACTION),
+                    TRANSACTION_DATE: DATE_ACTIVE,
                     TRANSACTION_VALUE: getPackage[i].TRANSACTION_VALUE,
                     TRANSACTION_TYPE: TRANSACTION_TYPE,
                     TRANSACTION_INFO: getPackage[i].TRANSACTION_INFO,
