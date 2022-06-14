@@ -40,6 +40,12 @@ const SecondPage = (props) => {
                 return;
         }
     }
+    function HandleDate(ACTIVATED_DATE){
+        const Year=ACTIVATED_DATE[0]+ACTIVATED_DATE[1]+ACTIVATED_DATE[2]+ACTIVATED_DATE[3];
+        const Month=ACTIVATED_DATE[5]+ACTIVATED_DATE[6];
+        const Day=ACTIVATED_DATE[8]+ACTIVATED_DATE[9];
+        return Day+"-"+Month+"-"+Year;
+    }
     return (
         <div className="second-page">
             <div className="card">
@@ -63,7 +69,7 @@ const SecondPage = (props) => {
                                                     <div>Tình trạng điểm thưởng: Điểm thưởng vẫn đang được xử lý</div>
                                                 </div>
                                                 <div className="col-sm-6" style={{ fontWeight: "bolder" }}>
-                                                    <div>Ngày sẽ nhận điểm thưởng: {" "+item.END_DATE}</div>
+                                                    <div>Ngày sẽ nhận điểm thưởng: {" "+handleDate(item.END_DATE)}</div>
                                                 </div>
                                             </div>
                                             <div className="page-point" style={{ fontWeight: "bolder" }}>
@@ -74,7 +80,7 @@ const SecondPage = (props) => {
                                                     <div>Số điểm thưởng:{" "+item.POINT_VALUE}</div>
                                                 </div>
                                                 <div className="col-sm-6" style={{ fontWeight: "bolder" }}>
-                                                    <div>Ngày thực hiện giao dịch:{" "+item.DATE_TRANSACTION}</div>
+                                                    <div>Ngày thực hiện giao dịch:{" "+HandleDate(item.DATE_TRANSACTION)}</div>
                                                 </div>
                                             </div>
                                         </div>

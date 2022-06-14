@@ -11,9 +11,9 @@ export default function HistoryTransaction(props){
     const [getCookies,setCookies]=useCookies();
     useEffect(async ()=>{
         if(!getPackage[0]){
-            const res = await axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getHistoryTransaction", {
+            const res = await axios.post("https://gxyvy04g01backend-production.up.railway.app/Customer/getHistoryTransaction",{
                 TOKEN: props.value,
-            })
+            });
             setPackage(res.data.RESULT);
         }
         if (!getData[1]) {
@@ -27,7 +27,7 @@ export default function HistoryTransaction(props){
                 const unmountToData = {
                     id: i+1,
                     SERVICE_NAME: getPackage[i].APP_ID,
-                    TRANSACTION_DATE: getPackage[i].DATE_TRANSACTION,
+                    TRANSACTION_DATE: HandleDate(getPackage[i].DATE_TRANSACTION),
                     TRANSACTION_VALUE: getPackage[i].TRANSACTION_VALUE,
                     TRANSACTION_TYPE: TRANSACTION_TYPE,
                     TRANSACTION_INFO: getPackage[i].TRANSACTION_INFO,
@@ -68,6 +68,12 @@ export default function HistoryTransaction(props){
             sortable: true,
         },
     ];
+    function HandleDate(ACTIVATED_DATE){
+        const Year=ACTIVATED_DATE[0]+ACTIVATED_DATE[1]+ACTIVATED_DATE[2]+ACTIVATED_DATE[3];
+        const Month=ACTIVATED_DATE[5]+ACTIVATED_DATE[6];
+        const Day=ACTIVATED_DATE[8]+ACTIVATED_DATE[9];
+        return Day+"-"+Month+"-"+Year;
+    }
     return(
         <div style={{height:"800px",width:"50%",marginLeft:"38%"}}>
             <DataTable
